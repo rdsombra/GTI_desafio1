@@ -177,24 +177,8 @@ nav a#pull:after {
 	max-width:100%;
 	display:block;
 }
-.price_desc{
-	font-family: 'Open Sans', sans-serif;
-	border:solid 4px #82592D;
-	background:#82592D;
-	border-radius: 0px 0px 5px 5px;
-	-webkit-border-radius: 0px 0px 5px 5px;
-	-moz-border-radius: 0px 0px 5px 5px;
-	-o-border-radius: 0px 0px 5px 5px;
-}
-.price_desc a{
-	display:block;
-	padding:10px;
-	color:#DED2B3;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;	
-}
+
+
 .price_text{
   float:left;	
 }
@@ -357,28 +341,7 @@ nav a#pull:after {
 	color:#82592D;
 	line-height: 1.8em;
 }
-.read_more{
-	margin-top:10px;
-}
-.read_more a{
-    font-family: 'Open Sans', sans-serif;
-	color:#82592D;
-	font-size: 0.85em;
-	text-transform: uppercase;
-	border:none;
-	background:url(../images/marker2.png) no-repeat 0;
-	padding-left:25px;
-	display: inline-block;
-	margin-top:10px;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.read_more a:hover{
-  color:#CE8A00;
-}
+
 .posts{
 	padding:0px 0 9px 0;
  }
@@ -477,30 +440,7 @@ nav a#pull:after {
 	opacity: 0.9;
 	bottom:25px;
 }
-/*----copy-right-----*/
-.copy-right{
-	text-align:center;
-	padding:15px 0px;
-	background:url(../images/bg.png);
-}
-.copy-right p{
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
-	font-size: 0.875em;
-	text-transform: uppercase;
-}
-.copy-right p a{
-	color:#DBB25F;
-	font-family: 'Open Sans', sans-serif;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.copy-right p a:hover{
-	color:#fff;
-}
+
 /************** About ************/
 .header_img{
 	position:relative;
@@ -998,6 +938,11 @@ nav a#pull:after {
 	}	
 	.images_3_of_1,.span_2_of_1{
 		width:100%;
+	}
+	.top_grid h33{
+		font-size: 2em;
+		margin-left: 10px;
+		color: #82592D;
 	}
 	.top_grid h4{
 		font-size:2em;
